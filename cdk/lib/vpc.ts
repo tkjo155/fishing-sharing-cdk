@@ -42,7 +42,7 @@ export class VPC extends Stack {
         },
       ],
       availabilityZones: ["ap-northeast-1a", "ap-northeast-1c"],
-      natGateways: 0, // コストカットのためにnatgwは置かない。
+      natGateways: 1, // コストカットのためにnatgwは置かない。
     });
   }
 }

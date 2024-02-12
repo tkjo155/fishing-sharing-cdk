@@ -18,7 +18,8 @@
     "fishing-sharing-cdk": {
       "region": "ap-northeast-1",
       "accountId": "103010158636",
-      "vpcCidr": "172.16.0.0/16"
+      "vpcCidr": "172.16.0.0/16",
+      "vpcId": "vpc-0895cc849b0c44f1d"
     },
     "@aws-cdk/aws-lambda:recognizeLayerVersion": true,
     "@aws-cdk/core:checkSecretUsage": true,
